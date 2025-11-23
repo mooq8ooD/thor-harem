@@ -9,8 +9,8 @@ import { KindeProvider } from "@kinde-oss/kinde-auth-nextjs";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Kinde Auth",
-  description: "Kinde with NextJS App Router",
+  title: "Thor-harem",
+  description: "Project-player",
 };
 
 export default async function RootLayout({
@@ -26,12 +26,12 @@ export default async function RootLayout({
         <KindeProvider>
           <header>
             <nav className="nav container">
-              <h1 className="text-display-3">KindeAuth</h1>
+              <h1 className="text-display-3">Thor-harem</h1>
               <div>
                 {!(await isAuthenticated()) ? (
                   <>
                     <LoginLink className="btn btn-ghost sign-in-btn">
-                      Sign in
+                      Sign in ||
                     </LoginLink>
                     <RegisterLink className="btn btn-dark">Sign up</RegisterLink>
                   </>

@@ -10,12 +10,11 @@ export default function Home() {
         <p className="text-body-1 hero-tagline">Configure your app</p>
 
         <Link
-          href="https://kinde.com/docs/sdks/nextjs-sdk"
-          target="_blank"
+          href="/dashboard"
           rel="noreferrer"
           className="btn btn-light btn-big"
         >
-          Go to docs
+          Go to Dashboard
         </Link>
       </div>
     </div>
