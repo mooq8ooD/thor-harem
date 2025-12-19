@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@kinde-oss/kinde-auth-nextjs':
         specifier: ^2.9.1
-        version: 2.10.0(eslint@8.56.0)(next@15.1.9(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typescript@5.3.3)
+        version: 2.10.0(eslint@8.56.0)(next@15.1.11(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typescript@5.3.3)
       '@types/node':
         specifier: 20.11.5
         version: 20.11.5
@@ -27,8 +27,8 @@ importers:
         specifier: ^15.1.2
         version: 15.5.6(eslint@8.56.0)(typescript@5.3.3)
       next:
-        specifier: 15.1.9
-        version: 15.1.9(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+        specifier: 15.1.11
+        version: 15.1.11(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       react:
         specifier: ^19.0.0
         version: 19.2.0
@@ -254,8 +254,8 @@ packages:
   '@napi-rs/wasm-runtime@0.2.12':
     resolution: {integrity: sha512-ZVWUcfwY4E/yPitQJl481FjFo3K22D6qF0DuFH6Y/nbnE11GY5uguDxZMGXPQ8WQ0128MXQD7TnfHyK4oWoIJQ==}
 
-  '@next/env@15.1.9':
-    resolution: {integrity: sha512-Te1wbiJ//I40T7UePOUG8QBwh+VVMCc0OTuqesOcD3849TVOVOyX4Hdrkx7wcpLpy/LOABIcGyLX5P/SzzXhFA==}
+  '@next/env@15.1.11':
+    resolution: {integrity: sha512-yp++FVldfLglEG5LoS2rXhGypPyoSOyY0kxZQJ2vnlYJeP8o318t5DrDu5Tqzr03qAhDWllAID/kOCsXNLcwKw==}
 
   '@next/eslint-plugin-next@15.5.6':
     resolution: {integrity: sha512-YxDvsT2fwy1j5gMqk3ppXlsgDopHnkM4BoxSVASbvvgh5zgsK8lvWerDzPip8k3WVzsTZ1O7A7si1KNfN4OZfQ==}
@@ -1337,8 +1337,8 @@ packages:
   natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
 
-  next@15.1.9:
-    resolution: {integrity: sha512-OoQpDPV2i3o5Hnn46nz2x6fzdFxFO+JsU4ZES12z65/feMjPHKKHLDVQ2NuEvTaXTRisix/G5+6hyTkwK329kA==}
+  next@15.1.11:
+    resolution: {integrity: sha512-UiVJaOGhKST58AadwbFUZThlNBmYhKqaCs8bVtm4plTxsgKq0mJ0zTsp7t7j/rzsbAEj9WcAMdZCztjByi4EoQ==}
     engines: {node: ^18.18.0 || ^19.8.0 || >= 20.0.0}
     hasBin: true
     peerDependencies:
@@ -1997,7 +1997,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@kinde-oss/kinde-auth-nextjs@2.10.0(eslint@8.56.0)(next@15.1.9(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typescript@5.3.3)':
+  '@kinde-oss/kinde-auth-nextjs@2.10.0(eslint@8.56.0)(next@15.1.11(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typescript@5.3.3)':
     dependencies:
       '@kinde-oss/kinde-auth-react': 5.10.1(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@kinde-oss/kinde-typescript-sdk': 2.13.1(eslint@8.56.0)(typescript@5.3.3)
@@ -2006,7 +2006,7 @@ snapshots:
       cookie: 1.0.2
       crypto-js: 4.2.0
       destr: 2.0.5
-      next: 15.1.9(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+      next: 15.1.11(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       react: 19.2.0
       react-dom: 19.2.0(react@19.2.0)
       uncrypto: 0.1.3
@@ -2059,7 +2059,7 @@ snapshots:
       '@tybys/wasm-util': 0.10.1
     optional: true
 
-  '@next/env@15.1.9': {}
+  '@next/env@15.1.11': {}
 
   '@next/eslint-plugin-next@15.5.6':
     dependencies:
@@ -3292,9 +3292,9 @@ snapshots:
 
   natural-compare@1.4.0: {}
 
-  next@15.1.9(react-dom@19.2.0(react@19.2.0))(react@19.2.0):
+  next@15.1.11(react-dom@19.2.0(react@19.2.0))(react@19.2.0):
     dependencies:
-      '@next/env': 15.1.9
+      '@next/env': 15.1.11
       '@swc/counter': 0.1.3
       '@swc/helpers': 0.5.15
       busboy: 1.6.0
